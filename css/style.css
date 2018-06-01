@@ -1,8 +1,13 @@
 article {
-  width: 300px;
-  height: 300px;
+  width: 290px;
+  height: 220px;
   display: inline-block;
-  margin: 5px;
+  padding: 15px;
+  margin-right: 5px;
+}
+
+article img {
+  margin-right: 15px;
 }
 
 body{
@@ -14,10 +19,6 @@ body{
   color: #BDA896;
 }
 
-.borBot {
-  border-bottom: 1px solid;
-}
-
 .container {
   width: 90%;
   max-width: 1000px;
@@ -26,13 +27,12 @@ body{
   /*flex*/
   display: flex;
   flex-flow: row wrap;
-
 }
 
 .element {
-  width: 50px;
+  width: 30px;
   height: 30px;
-  margin: 0 5px;
+  padding: 3px;
   border-right: 1px solid;
   text-align: center;
 }
@@ -41,13 +41,39 @@ body{
   background-color: rgba(246,246,246,0.2);
 }
 
+.descrip{
+  margin: 20px 0;
+}
+
 .fontMin {
-  font-size: 14px;
+  display: inline;
+  margin-left: 48%;
+  font-size: 16px;
 }
 
 .foot{
   margin-top: 20px;
+  margin-bottom: 20px;
 }
+
+.foot p {
+  position: absolute;
+  display: inline;
+  font-size: 10px;
+}
+.registro {
+  margin-left: 23%;
+}
+
+.registro input {
+  background-color: rgba(246,246,246,0.2);
+  border-style: none;
+  font-size: 15px;
+}
+
+::placeholder {
+  color: #bda896;
+ }
 
 .gradient {
   background-image: linear-gradient( #70320D, #884614);
@@ -57,19 +83,37 @@ body{
 
 .header {
   width: 100%;
-  padding: 20px;
+  border-bottom: 1px solid;
 
-  /*flex*/
+  /*flex
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: row wrap;*/
 }
 
-header nav h4 {
-  text-align: center;
-  padding: 2px;
-  flex-grow: 1;
+ul {
+    list-style-type: none;
+    margin-top: 17px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: gray;
+}
+
+section h5 {
+  margin: 5px;
+  margin-bottom: 15px;
 }
 
 .imgBorder {
@@ -78,19 +122,24 @@ header nav h4 {
   height: 30vh;
 }
 
+.lg {
+float: left;
+
+}
+
 .logo{
   width: 150px;
-  vertical-align: top;
+
+}
+
+.menu1 {
+  padding-top: 5px;
+  margin-left: inherit;
+  font-size: 10px;
 }
 
 .nav {
-  width: 50%;
   font-family: 'Lora', serif;
-
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
 }
 
 p {
@@ -112,8 +161,22 @@ section article img {
 }
 
 /*.img1 {
-  background-image: url('http://www.elprotocoloestademoda.com/wp-content/uploads/2014/09/featured-secreto-elegancia-940x400.jpg');
-  width: 80vw;
-  height: 30vh;
-  margin: 30px 0;
+background-image: url('http://www.elprotocoloestademoda.com/wp-content/uploads/2014/09/featured-secreto-elegancia-940x400.jpg');
+width: 80vw;
+height: 30vh;
+margin: 30px 0;
+}*/
+
+/*header nav li {
+  display: inline-block;
+
+  text-decoration: none;
+}
+header li {
+  height: 20px;
+
+}
+
+header li:hover {
+  background-color:gray;
 }*/
